@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f7fa;
+}
+
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #e5e7eb;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 5px;
+}
+
+main {
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  nav button {
+    flex: 1 1 45%;
+  }
+}
